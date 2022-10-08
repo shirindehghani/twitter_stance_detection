@@ -1,0 +1,13 @@
+{
+    "EPOCHS":8,
+    "LEARNING_RATE":2e-05,
+    "TRAIN_BATCH_SIZE":32,
+    "TEST_BATCH_SIZE":256,
+    "WARMUP_STEPS":150,
+    "WEIGHT_DECAY":0.01,
+    "LOGGING_STEPS":100,
+    "predictions_model":"./models",
+    "tokenizer":"./models",
+    "dataset_path":"./data/df_sample_with_label.csv",
+    "training_model":"cardiffnlp/twitter-xlm-roberta-base"
+}
