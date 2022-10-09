@@ -77,8 +77,8 @@ class StanceUsage:
         test_results=prediction(data, stance_task)
         return test_results
 
-    def predict_text(self,text:list, stance_target:list):
-        input_data={'all_text':text, "stance target":stance_target}
+    def predict_text(self,text:list):
+        input_data={'all_text':text}
         input_df=pd.DataFrame(input_data)
         input_df['len_less_5']=input_df['all_text'].apply(lambda x: True if len(x.split())<5 else False)
         if any(input_df['len_less_5'].to_list()):
