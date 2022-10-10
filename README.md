@@ -1,10 +1,6 @@
-Twitter Sentiment Analysis
+Twitter Stance Detection with XLM-twitter-roberta-base
 
 Metodata
-
-#########################################################################################################################
-
-The model that used in this task is "XLM-t-roberta-base" from huggingface hub!
 
 #########################################################################################################################
 
